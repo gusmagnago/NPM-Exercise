@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+h1 { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 15px 0;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  color: rgb(135,145,156);
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(83,88,98);
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgb(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.heart {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  float: left;
+  padding: 0 10px;
+  bottom: 50%;
+} 
+
+.acronym {
+  margin: 0 20px 0 0;
+  font-size: 14px;
+  float: left;
+  padding: 0;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  display: block;
+  font-size: 14px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#buildbox {
+  background-color: rgb(32, 101, 136);
+  background-image: url('https://svgshare.com/i/EEw.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0.;
+  color: rgb(255,255,255);  
+  height: 444px;
+  margin: 0 auto;
+}
+
+.center-top {
+  position: relative;
+  top: 20px;
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.search-button input[type=text] {
+  background-color: rgb(31, 82, 111);
+  border: solid;
+  border-width: 1px;
+  border-color: rgba(255,255,255, 0.5);
+  width: 800px;
+  height: 40px;
+}
+
+.first-box{
+  margin: 0 auto;
+  float: right;
+  position: relative;
+  left: -48%;
+  top: 10%;
+}
+
+.signup-button-orange{
+  background-color: rgb(240,146,51);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255,255,255);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0;
+  width: 170px; 
+  height: 40px; 
+  border-radius: 20px;
+}
+
+#sign-up {
+  background-color: rgb(39,53,71);
+  background-size: 100%;
+  height: 525px;
+}
+
+.second-box {
+  color: rgb(255,255,255);
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
+}
+.second-box-img {
+  float: left;
+  position: absolute;
+  margin: 60px 345px;
+  left: -50%;
+}
+.second-box-text {
+  color: rgb(255,255,255);
+  float: right;
+  position: absolute;
+  margin-top: 50px;
+  left: 50%;
+  margin-right: 250px;
+}
+.final-text a{
+  color: rgb(255,255,255);
+  text-decoration: none;
+  
+}
+
+.signup-button-red {
+  background-color: rgb(203, 56, 55);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255,255,255);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0;
+  width: 180px; 
+  height: 40px; 
+  border-radius: 20px;
+}
+
+
+#install {
+  background-image: url('https://svgshare.com/i/EFM.svg');
+  background-position: 0 0.;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 525px;
+  padding: 0;
+}
+
+.third-box {
+  margin: 0 auto;
+  float: right;
+  position: relative;
+  left: -48%;
+  top: 15%;
+  width: 552px;
+  height: 211px;
+  color: rgb(255,255,255);
+}
+.install-button {
+  background-color: rgb(49,68,88);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(255,255,255);
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 0;
+  width: 120px; 
+  height: 40px; 
+  border-radius: 20px;
+}
+
+#building {
+  align-items: center;
+}
+.footer{
+  background-color: rgb(255,255,255);
+  margin: 35px 70px;
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.col-1 { 
+  float: left; 
+  width: 33%;
+}
+
+.col-2 {
+  float: left; 
+  width: 33%;
+}
+
+.col-3 {
+  float: left;
+  width: 33%;  
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.text-box {
+  color: rgb(135,145,156);
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 15px 20px;
+}
+.text-box a:link {
+  text-decoration: none;
+  text-decoration-color: rgb(208, 74, 73);
+}
